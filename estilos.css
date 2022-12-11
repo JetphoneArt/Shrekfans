@@ -1,0 +1,318 @@
+
+
+
+*{ 
+    margin: 0;
+padding: 0;
+
+;}
+
+
+
+body{
+    width: 1300px;
+    background-color: rgb(0, 14, 3);
+    margin: 0 auto;
+    
+    
+}
+body{
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+header{
+    position: fixed;
+    background-color :rgb(29, 156, 67);
+    opacity: 1;
+    width: 1300px;
+    
+}
+
+
+
+
+#logo{
+    opacity: 1;
+    font-size: 0px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: url(imagenes/shrek.png) 0 0 no-repeat;
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+nav li{
+        display: inline;
+}
+
+@keyframes entrada{
+    0% {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0px, 0px);
+
+    }
+}
+nav li a{
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: left;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    color: #fff;
+}
+
+.trama{
+    
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fondop{
+    background-color: white;
+}
+
+.trama h2{ 
+    text-align: left;
+    color: rgb(0, 148, 0);
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    color: rgb(0, 148, 0);
+}
+.shrekpastilla{
+    background-color: rgb(0, 148, 0); 
+}
+.personajesfondo{
+    background-color: rgb(0, 148, 0);
+}
+.shrekfoto{
+    
+    float: left;
+}
+.shrekfoto:hover{
+    scale: 180%;
+    transform: translate(100px);
+    transition: all 0.3s 100ms ease;
+    
+}
+.shrek p{
+    width: 1050px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    
+}
+.personajes{
+    width: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+.shrek{
+    float: right;
+}
+
+.burrofoto{
+    float: left;
+    
+    clear: left;
+}
+.burrofoto:hover{
+    scale: 180%;
+    transform: translate(100px);
+    transition: all 0.3s 100ms ease;
+}
+.burro {
+    width: 1050px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    float: right;
+
+}
+.fionafoto{
+    float: left;
+    clear: left;
+}
+.fionafoto:hover{
+    scale: 180%;
+    transform: translate(100px);
+    transition: all 0.3s 100ms ease;
+}
+.fiona{
+    width: 1050px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    float: right;
+}
+.farquadfoto{
+    float: left;
+    clear: left;
+
+}
+.farquadfoto:hover{
+    scale: 180%;
+    transform: translate(100px);
+    transition: all 0.3s 100ms ease;
+}
+.farquad{
+    width: 1050px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    float: right;
+}
+.nominaciones {
+    width: 1300px;
+    padding: 30px 0px 40px 0px; 
+    clear: left;
+    
+
+}
+.nominacionesback{
+    background-color: rgb(0, 148, 0);
+}
+.nominacionfoto{
+    width: 1080px;
+    margin: 0 auto;
+    
+}
+
+.oscar{
+    padding: 20px;
+    float: left;
+    
+}
+.oscar figcaption{
+    padding: 20px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 153, 69)
+}
+.oscar:hover{
+    scale: 170%;
+    transition :all 1s 200ms ease;
+    
+}
+
+
+.annie{
+    float: left;
+    padding: 20px;
+}
+.annie figcaption{
+    padding: 20px 0px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 153, 69)
+}
+.annie:hover{
+    scale: 170%;
+    transition :all 1s 200ms ease;
+}
+.bafta{
+    float: left;
+    padding: 20px 0px 20px 10px;
+}
+.bafta figcaption{
+    padding: 20px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 153, 69)
+}
+.bafta:hover{
+    scale: 170%;
+    transition :all 1s 200ms ease;
+}
+.trailers{
+    width: 1300px;
+    clear: left;
+}
+.videotrailer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.videotrailer h2{
+    padding: 30px;
+    text-align: left;
+    color: rgb(0, 148, 0);
+}
+.fondotrailer{
+    padding-bottom: 50px;
+    background-color: rgba(0, 153, 69, 0.295) ;
+}
+.galeria{
+    width: 1300px;
+    margin: 0 auto;
+    
+    border-style: solid;
+    border-color: darkgreen;
+}
+.galeria h2{
+    width: 1300px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 148, 0);
+}
+.galeriafoto{
+    width: 1300px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.botoninicio{
+    text-align: center;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color: #fff;
+    
+}
+#footer{
+    background-color: darkgreen;
+}
+.fondoredes{
+    background-color:rgb(0, 148, 0) ;
+}
+.logoredes{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.logoredes footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgb(0, 148, 0);
+    padding: 15px;
+}
